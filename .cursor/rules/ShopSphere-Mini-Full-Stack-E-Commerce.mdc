@@ -1,0 +1,274 @@
+---
+alwaysApply: true
+---
+
+# Project Rules
+
+## Project Name
+
+ShopSphere - Mini Full Stack E-Commerce
+
+Tech Stack
+
+Frontend
+- React 19
+- Vite
+- React Router DOM
+- Axios
+- Tailwind CSS
+- React Hook Form
+- React Hot Toast
+
+Backend
+- Node.js
+- Express.js
+- MySQL
+- Prisma ORM
+- JWT Authentication
+- bcrypt
+- Multer
+- dotenv
+- CORS
+
+Database
+- MySQL
+
+Version Control
+- Git
+
+IDE
+- VS Code / Cursor
+
+---------------------------------------------------
+
+Project Structure
+
+shop-sphere/
+
+    frontend/
+
+    backend/
+
+    README.md
+
+---------------------------------------------------
+
+General Rules
+
+Never create everything in one file.
+
+Every component should have its own file.
+
+Every API should have its own controller.
+
+Every database operation should use Prisma.
+
+Never write raw SQL unless absolutely required.
+
+Follow clean architecture.
+
+---------------------------------------------------
+
+Backend Structure
+
+backend/
+
+src/
+
+config/
+
+controllers/
+
+middlewares/
+
+routes/
+
+services/
+
+prisma/
+
+utils/
+
+uploads/
+
+app.js
+
+server.js
+
+---------------------------------------------------
+
+Frontend Structure
+
+frontend/
+
+src/
+
+api/
+
+components/
+
+pages/
+
+layouts/
+
+hooks/
+
+context/
+
+utils/
+
+assets/
+
+styles/
+
+App.jsx
+
+main.jsx
+
+---------------------------------------------------
+
+Coding Rules
+
+Use Functional Components.
+
+Use Hooks.
+
+Never use Class Components.
+
+Use async/await only.
+
+Never use callback hell.
+
+Use try-catch everywhere.
+
+Return proper HTTP status codes.
+
+Create reusable components.
+
+Use environment variables.
+
+Don't hardcode URLs.
+
+---------------------------------------------------
+
+API Response Format
+
+Success
+
+{
+    success: true,
+    message: "",
+    data: {}
+}
+
+Failure
+
+{
+    success: false,
+    message: "",
+    error: ""
+}
+
+---------------------------------------------------
+
+Authentication
+
+JWT Authentication
+
+Password Hashing using bcrypt
+
+Protected Routes
+
+Role Based
+
+Admin
+
+Customer
+
+---------------------------------------------------
+
+UI Rules
+
+Responsive
+
+Modern
+
+Minimal
+
+Tailwind CSS
+
+Cards
+
+Rounded Corners
+
+Loading Spinner
+
+Skeleton Loader
+
+Toast Notifications
+
+---------------------------------------------------
+
+Naming Convention
+
+Components
+
+PascalCase
+
+ProductCard.jsx
+
+Navbar.jsx
+
+Controllers
+
+camelCase
+
+productController.js
+
+Routes
+
+productRoutes.js
+
+Database
+
+snake_case
+
+created_at
+
+updated_at
+
+---------------------------------------------------
+
+Commit Rules
+
+feat:
+
+fix:
+
+refactor:
+
+style:
+
+docs:
+
+---------------------------------------------------
+
+Do NOT
+
+Don't duplicate code
+
+Don't use inline CSS
+
+Don't use alert()
+
+Don't store passwords directly
+
+Don't commit .env
+
+Don't use unnecessary packages
+
+---------------------------------------------------
+
+Project Goal
+
+Build a production-like mini e-commerce application suitable for MCA Final Year Project.

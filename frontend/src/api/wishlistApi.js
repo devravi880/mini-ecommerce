@@ -1,0 +1,9 @@
+import api from './axios';
+
+export const getWishlist = () => api.get('/wishlist');
+
+export const addToWishlist = (productId) =>
+  api.post('/wishlist', { productId });
+
+export const removeFromWishlistAPI = (productId) =>
+  api.delete(`/wishlist/${productId}`);
